@@ -1,5 +1,12 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://1goto.ai",
+      "permanent": true
+    }
+  ],
   "headers": []
 }
